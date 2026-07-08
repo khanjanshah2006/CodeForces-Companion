@@ -1,0 +1,23 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+Server/__pycache__/
+
+# Frontend build artifacts / deps (also covered by Frontend/.gitignore)
+Frontend/node_modules/
+Frontend/dist/
+Frontend/dist-ssr/
+Frontend/.output/
+Frontend/.vinxi/
+Frontend/.tanstack/
+Frontend/.nitro/
+
+# Editor
+.vscode/
+.idea/
